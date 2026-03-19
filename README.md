@@ -21,25 +21,27 @@ Projects in this repository cover:
 - **SQL** — relational data modeling and query optimization
 - **Reporting** — LaTeX, Power BI, Powerpoint
 
-
 ## Project Structure
 
 Projects are typically organized with:
+- `src/` or `pipeline/` – core system logic, model code, and backend services
 - `data/` – raw or processed datasets (when shareable)
-- `scripts/` or `analysis/` – analysis and modeling code
-- `figures/` – visualizations and plots
-- `reports/` – written summaries or technical reports
+- `notebooks/` – exploratory analysis and prototyping
+- `figures/` – visualizations, segmentation outputs, and evaluation plots
+- `reports/` – technical write-ups, policy memos, and academic documentation
+- `docker/` or `config/` – deployment configs, environment files, and infrastructure setup
 
-Each project folder includes a brief description of the research question, data sources, methods, and key findings.
+Each project folder includes a brief description of the problem statement, system architecture or methodology, data sources, and key results or metrics.
 
 ## Topics Covered
 
-Examples of topics explored include:
-- Salary and compensation analysis
-- Housing and public policy data
-- Marketing and operations analytics
-- Renewable energy and mobility-related data
-- Simulation-based inference and uncertainty quantification
+Examples of systems and domains explored include:
+- LLM tool integration and MCP server infrastructure
+- Optical music recognition and sheet music processing
+- Carpool routing optimization and real-time mapping
+- AI/HR technology benchmarking and market segmentation
+- Firearm mortality and public health policy modeling
+- Enterprise AI governance, audit logging, and risk assessment
 
 ## Notes
 
