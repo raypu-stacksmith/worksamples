@@ -1,27 +1,26 @@
-# Data Analysis Projects & Coursework
+# AI & Machine Learning Engineering Portfolio
 
-This repository contains a collection of my data analysis work, academic projects, and independent explorations across statistics, data science, and applied analytics. The projects span multiple domains and emphasize rigorous methodology, clear communication, and reproducible workflows.
+A collection of production-grade AI systems, ML pipelines, and applied research projects spanning backend engineering, computer vision, and statistical modeling. Implementations emphasize system reliability, algorithmic rigor, and end-to-end deployment.
 
 ## Overview
 
-The work in this repository includes:
-- Exploratory data analysis (EDA) and visualization
-- Statistical modeling and inference
-- Regression, generalized additive models (GAMs), and interaction analysis
-- Bayesian modeling and simulation
-- Data cleaning, transformation, and feature engineering
-- Applied analytics for business, policy, and engineering contexts
-
-Projects are implemented with a focus on interpretability, statistical validity, and real-world relevance.
+Projects in this repository cover:
+- **LLM tooling & MCP infrastructure** — FastMCP server development, transport layer configuration, and AI governance
+- **Computer vision & OMR** — staff detection, symbol segmentation, and classification pipelines
+- **Backend systems engineering** — API integration, real-time route optimization, and full lifecycle validation
+- **Unsupervised learning** — clustering, segmentation, and market positioning analysis
+- **Bayesian & statistical modeling** — hierarchical models, longitudinal data, and inference under uncertainty
+- **AI consulting & risk assessment** — capability benchmarking, data governance, and scalability evaluation
 
 ## Tools & Technologies
 
-Common tools and languages used throughout this repository include:
-- **R** (tidyverse, ggplot2, mgcv, rstan)
-- **Python** (pandas, numpy, matplotlib)
-- **SQL**
-- **Excel / Power BI**
-- **LaTeX / Overleaf** for academic reporting
+- **Python** — FastAPI, FastMCP, scikit-learn, OpenCV, pandas, NumPy
+- **ML/AI** — OMR pipelines, MusicXML, LLM integration, MCP protocol
+- **APIs & Infrastructure** — Docker, Open Meteo, commercial mapping APIs, Streamable HTTP / STDIO
+- **R** — RStan, mgcv, tidyverse, ggplot2
+- **SQL** — relational data modeling and query optimization
+- **Reporting** — LaTeX, Power BI, Powerpoint
+
 
 ## Project Structure
 
