@@ -1,6 +1,6 @@
 # AI & Machine Learning Engineering Portfolio
 
-A collection of production-grade AI systems, ML pipelines, and applied research projects spanning backend engineering, computer vision, and statistical modeling. Implementations emphasize system reliability, algorithmic rigor, and end-to-end deployment.
+A collection of production-grade AI systems, ML pipelines, and applied research projects spanning backend engineering, computer vision, and statistical modeling. Implementations emphasize system reliability, algorithmic rigor, and end-to-end deployment. Experienced in containerized deployment and orchestration using Docker and Kubernetes for scalable, production-ready ML systems.
 
 ## Overview
 
