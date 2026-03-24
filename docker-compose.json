@@ -1,0 +1,39 @@
+{
+  "name": "weather-mcp",
+  "services": {
+    "server": {
+      "build": {
+        "context": "."
+      },
+      "environment": {
+        "MCP_TRANSPORT": "http",
+        "HOST": "0.0.0.0",
+        "PORT": "8080"
+      },
+      "ports": [
+        "8080:8080"
+      ],
+      "healthcheck": {
+        "test": [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request,sys; urllib.request.urlopen('http://localhost:8080/health'); sys.exit(0)"
+        ],
+        "interval": "10s",
+        "timeout": "3s",
+        "retries": 5
+      },
+      "mem_limit": "256m",
+      "cpus": 0.5,
+      "networks": {
+        "mcpnet": {}
+      }
+    }
+  },
+  "networks": {
+    "mcpnet": {
+      "driver": "bridge"
+    }
+  }
+}
